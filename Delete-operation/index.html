@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Bootstrap Example</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script src="./script.js" defer></script>
+      <link rel="stylesheet" href="main.css">
+      <style>
+      </style>
+   </head>
+   <body>
+      <div class="container">
+         <table class="table" id='table_filterNameEmail'>
+            <thead>
+               <tr>
+                  <th> <input type="checkbox" id='selectAll'> Select All</th>
+                  <th>Name</th>
+                  <th>Action</th>
+               </tr>
+            </thead>
+            <tbody>
+               <tr>
+                  <td><input type='checkbox' class='checkbox_insideTBODY '></td>
+                  <td>Alfreds Futterkiste </td>
+                  <td>
+                     <button class='btn btn-danger DeleteSelectedRow '><i class="fa fa-times" aria-hidden="true"></i></button>
+                  </td>
+               </tr>
+               <tr>
+                  <td><input type='checkbox' class='checkbox_insideTBODY '></td>
+                  <td>Ana Trujillo Emparedados y helados </td>
+                  <td>
+                     <button class='btn btn-danger DeleteSelectedRow '><i class="fa fa-times" aria-hidden="true"></i></button>
+                  </td>
+               </tr>
+               <tr>
+                  <td><input type='checkbox' class='checkbox_insideTBODY '></td>
+                  <td>Antonio Moreno Taquería </td>
+                  <td>
+                     <button class='btn btn-danger DeleteSelectedRow '><i class="fa fa-times" aria-hidden="true"></i></button>
+                  </td>
+               </tr>
+               <tr>
+                  <td><input type='checkbox' class='checkbox_insideTBODY '></td>
+                  <td>Around the Horn </td>
+                  <td>
+                     <button class='btn btn-danger DeleteSelectedRow '><i class="fa fa-times" aria-hidden="true"></i></button>
+                  </td>
+               </tr>
+               <tr>
+                  <td><input type='checkbox' class='checkbox_insideTBODY '></td>
+                  <td>Berglunds snabbköp </td>
+                  <td>
+                     <button class='btn btn-danger DeleteSelectedRow '><i class="fa fa-times" aria-hidden="true"></i></button>
+                  </td>
+               </tr>
+               <tr>
+                  <td><input type='checkbox' class='checkbox_insideTBODY '></td>
+                  <td>Blauer See Delikatessen </td>
+                  <td>
+                     <button class='btn btn-danger DeleteSelectedRow '><i class="fa fa-times" aria-hidden="true"></i></button>
+                  </td>
+               </tr>
+               <tr>
+                  <td><input type='checkbox' class='checkbox_insideTBODY '></td>
+                  <td>Blondel père et fils </td>
+                  <td>
+                     <button class='btn btn-danger DeleteSelectedRow '><i class="fa fa-times" aria-hidden="true"></i></button>
+                  </td>
+               </tr>
+               <tr>
+                  <td><input type='checkbox' class='checkbox_insideTBODY '></td>
+                  <td>Bólido Comidas preparadas </td>
+                  <td>
+                     <button class='btn btn-danger DeleteSelectedRow '><i class="fa fa-times" aria-hidden="true"></i></button>
+                  </td>
+               </tr>
+               <tr>
+                  <td><input type='checkbox' class='checkbox_insideTBODY '></td>
+                  <td>Bon app'
+                  </td>
+                  <td>
+                     <button class='btn btn-danger DeleteSelectedRow '><i class="fa fa-times" aria-hidden="true"></i></button>
+                  </td>
+               </tr>
+               <tr>
+                  <td><input type='checkbox' class='checkbox_insideTBODY'></td>
+                  <td>Bottom-Dollar Marketse</td>
+                  <td>
+                     <button class='btn btn-danger DeleteSelectedRow '><i class="fa fa-times" aria-hidden="true"></i></button>
+                  </td>
+               </tr>
+               <tr>
+                  <td><input type='checkbox' class='checkbox_insideTBODY'></td>
+                  <td>B's Beverages</td>
+                  <td>
+                     <button class='btn btn-danger DeleteSelectedRow '><i class="fa fa-times" aria-hidden="true"></i></button>
+                  </td>
+               </tr>
+               <tr>
+                  <td><input type='checkbox' class='checkbox_insideTBODY'></td>
+                  <td>Cactus Comidas para llevar</td>
+                  <td>
+                     <button class='btn btn-danger DeleteSelectedRow '><i class="fa fa-times" aria-hidden="true"></i></button>
+                  </td>
+               </tr>
+            </tbody>
+         </table>
+         <div class="card text-right">
+            <div class="card-body ">
+               <div class="form-group mr-5">
+                  <input type="submit" value='Delete All selected' class='btn btn-danger DeleteAllSelectedRow'>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- modal for edit remark -->
+      <div id="showModelB4Del" class="px-2 py-2" style="">
+         <h4>Are You Sure, You want to delete.</h4>
+         <div class="d-flex">
+            <a href="javascript:void(0)" id="yesDelContact" class="btn btn-success mr-3">Yes</a>
+            <!-- <a href="javascript:void(0)" id='NoDelContact' class="btn btn-danger">No</a> -->
+         </div>
+         <span class="closModalMsg" id='closModalMsg'>X</span>
+      </div>
+      <script></script>
+   </body>
+</html>

@@ -1,0 +1,49 @@
+  #showModelB4Del {
+      padding: 10px 50px !important;
+      max-width: 500px;
+      max-height: 300px;
+      background: #edebee;
+      color: black;
+      border: 5px solid black;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      display: none;
+      z-index: 99999999999999999999999999999;
+  }
+
+  .tableHolder_mail {
+      height: 500px;
+      overflow-y: auto
+  }
+
+  .closModalMsg {
+      padding: 0.3rem 0.5rem;
+      border-radius: 7px;
+      background: red;
+      color: white;
+      position: absolute;
+      top: 0px;
+      right: 2px;
+      cursor: pointer;
+  }
+
+  .b4Remove {
+      transform: translateX(600px);
+      opacity: 0.3;
+      background: black !important;
+  }
+
+  table tbody tr {
+      position: relative;
+      transition: transform 0.5s;
+  }
+
+  .selectedRow_checkboxChecked {
+      background: #ccc9ce
+  }
